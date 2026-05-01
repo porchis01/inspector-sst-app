@@ -1,0 +1,41 @@
+{
+  "name": "SUNAFIL Inspector — Construcción Civil",
+  "short_name": "SUNAFIL RGI",
+  "description": "Asistente del Inspector de Trabajo SUNAFIL para fiscalización SST en obras de construcción civil. Calcula NR = P × S conforme a RM N° 034-2020-TR.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0C2340",
+  "theme_color": "#0C2340",
+  "orientation": "portrait-primary",
+  "lang": "es-PE",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nueva observación",
+      "short_name": "Nueva obs.",
+      "description": "Registrar nueva observación de campo",
+      "url": "./index.html#nueva",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
